@@ -1,0 +1,11 @@
+/* sanity check */
+/*body {
+    background-color: blue;
+}*/
+
+body {
+    background-image: url(/backround/1\ 5cwTsvRqJ0wK3sDIZVgxYg.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}

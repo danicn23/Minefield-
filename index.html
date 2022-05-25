@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Mine sweeper.css">
+
+    <title>Mine sweeper game</title>
+</head>
+
+<body onload="init()">
+    <h1>Mine Sweeper</h1>
+    <div>Timer: <span class="timer">0.000</span></div>
+    <div>Score: <span class="score">0</span></div>
+
+
+    <div class="level">
+        <h2>Choose Your Level</h2>
+        <button onclick="setLevel(4)">Begginer</button>
+        <button onclick="setLevel(8)">Normal</button>
+        <button onclick="setLevel(12)">It is a good day to die</button>
+    </div>
+
+    <div class="modal">
+        <h1 class="modal-header"></h1>
+        <button onclick="setLevel(4)">Restart Game</button>
+    </div>
+
+    <table class="minefield">
+        <tbody class="new-ground"></tbody>
+    </table>
+
+
+
+</body>
+<script src="js/Mine sweeper.js"></script>
+
+</html>
