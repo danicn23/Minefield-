@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Mine sweeper.css">
 
-    <title>Mine sweeper game</title>
+
+
+    <title>Minefield game</title>
 </head>
 
 <body onload="init()">
@@ -16,25 +18,27 @@
     <div>Score: <span class="score">0</span></div>
 
 
-    <div class="level">
+    <div class="setlevel">
         <h2>Choose Your Level</h2>
-        <button onclick="setLevel(4)">Begginer</button>
-        <button onclick="setLevel(8)">Normal</button>
-        <button onclick="setLevel(12)">It is a good day to die</button>
+        <button onclick="setLevel(4)">Begginer 🥺</button>
+        <button onclick="setLevel(8)">Normal 😏</button>
+        <button onclick="setLevel(12)">Expert 🥱</button>
     </div>
 
     <div class="modal">
-        <h1 class="modal-header"></h1>
-        <button onclick="setLevel(4)">Restart Game</button>
+        <h1 class="modal-header">You won!</h1>
+        <button onclick="setLevel(4)">Clear another field</button>
+
     </div>
 
     <table class="minefield">
-        <tbody class="new-ground"></tbody>
+        <tbody class="field"></tbody>
     </table>
 
 
 
 </body>
-<script src="js/Mine sweeper.js"></script>
+<script src="js/Mine sweeper - Temp.js"></script>
+<script src="js/Mine Sweeper - utils.js"></script>
 
 </html>

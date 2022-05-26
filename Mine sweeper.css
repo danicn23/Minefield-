@@ -3,9 +3,103 @@
     background-color: blue;
 }*/
 
+* {
+    box-sizing: border-box;
+}
+
 body {
+    color: black;
+    text-align: center;
+    margin-top: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-image: url(/backround/1\ 5cwTsvRqJ0wK3sDIZVgxYg.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
+
+}
+
+div {
+    margin-top: 80 px;
+}
+
+table {
+    margin: auto;
+}
+
+
+.selected {
+    border: black 2px solid;
+    background-color: floralwhite;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.field td {
+    background-color: aquamarine
+}
+
+/* td {
+    border: black 2px solid;
+    background-color: floralwhite;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    text-align: center;
+} */
+
+.level {
+    background-color: darkslategrey;
+    width: 380px;
+    border-radius: 8px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+button {
+    background-color: cadetblue;
+    border: whitesmoke 2px;
+    border-radius: 5px;
+    color: bisque;
+    font-size: 13px;
+    width: 100px;
+    height: 30px
+}
+
+button:hover {
+    background-color: lightgray;
+    color: slategray;
+    cursor: pointer;
+}
+
+
+.modal {
+    display: none;
+    background-color: cadetblue;
+    background-image: url(../mSweeper/icons/finish\ flag.png);
+    height: 180px;
+    width: 250px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    left: 500%;
+    bottom: 50%;
+}
+
+.modal button {
+    margin-top: 45px;
+    width: 150px;
+    color: #FFFFFF;
+    background: #333333;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+
+.modal button:hover {
+    text-shadow: 0 -10px 20px #ff8000, 0 -18px 40px #F00, 2px 2px 2px rgba(206, 89, 55, 0);
+
 }
