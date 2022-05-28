@@ -37,11 +37,8 @@ table {
     text-align: center;
 }
 
-.field td {
-    background-color: aquamarine
-}
 
-/* td {
+/* .cell {
     border: black 2px solid;
     background-color: floralwhite;
     height: 50px;
@@ -49,6 +46,35 @@ table {
     border-radius: 5px;
     text-align: center;
 } */
+
+
+td {
+    border: black 2px solid;
+    background-color: floralwhite;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+td .button {
+    background-color: darksalmon;
+}
+
+td button.hover {
+    color: slategray;
+    cursor: cell;
+}
+
+
+td .opened {
+    background-color: #F00;
+    imge size 20px;
+}
+
+td .openedmine {
+    background-image: url(../mSweeper/icons/mine2.png);
+}
 
 .level {
     background-color: darkslategrey;

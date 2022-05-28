@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Mine sweeper.css">
+    <script src="js/sweeper-main.js"></script>
 
 
 
@@ -14,13 +15,13 @@
 
 <body onload="init()">
     <h1>Mine Sweeper</h1>
-    <div>Timer: <span class="timer">0.000</span></div>
+    <div>Timer: <span class="timer">00:00:00</span></div>
     <div>Score: <span class="score">0</span></div>
 
 
     <div class="setlevel">
         <h2>Choose Your Level</h2>
-        <button onclick="setLevel(4)">Begginer 🥺</button>
+        <button onclick="setLevel(4)">Beginner 🥺</button>
         <button onclick="setLevel(8)">Normal 😏</button>
         <button onclick="setLevel(12)">Expert 🥱</button>
     </div>
@@ -31,14 +32,13 @@
 
     </div>
 
-    <table class="minefield">
-        <tbody class="field"></tbody>
-    </table>
+    <div class="minefield">
+        <!-- <tbody class="field"></tbody> -->
+    </div>
 
 
 
 </body>
-<script src="js/Mine sweeper - Temp.js"></script>
-<script src="js/Mine Sweeper - utils.js"></script>
+<!-- <script src="js/sweeper-utils.js"></script> -->
 
 </html>
